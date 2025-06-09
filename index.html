@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=], initial-scale=1.0">
+  <title>Treinando Layouts</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <!--Página introdutória-->
+  <div class="container-inicio">
+  <header>
+    <h1>Thais Calvi - Treinando Layouts</h1>
+  </header>
+
+  <section class="intro">
+    <h2>Projeto de Treino com Flex e Grid</h2>
+    <p>Esse projeto foi criado com o objetivo de treinar os conceitos de layout utilizando <strong>display: flex</strong> e <strong>display: grid</strong> no CSS.</p>
+    <p>Abaixo estão os layouts que serão implementados:</p>
+  </section>
+
+  <section class="layouts">
+    <div class="layout-card">
+      <img src="assets/layouts/layout1.png" alt="Layout 1">
+      <p>Layout 1</p>
+    </div>
+    <div class="layout-card">
+      <img src="assets/layouts/layout2.png" alt="Layout 2">
+      <p>Layout 2</p>
+    </div>
+    <div class="layout-card">
+      <img src="assets/layouts/layout3.png" alt="Layout 3">
+      <p>Layout 3</p>
+    </div>
+    <div class="layout-card">
+      <img src="assets/layouts/layout4.png" alt="Layout 4">
+      <p>Layout 4</p>
+    </div>
+  </section>
+  </div>
+
+  <!--Página do laout1-->
+  <section class="layout1-container">
+  <h2>Layout 1</h2>
+
+  <div class="layout1-grid">
+    <!-- Imagem grande à esquerda -->
+    <div class="item-grande">
+      <img src="assets/images/image1.png" alt="Imagem grande">
+      <div class="legenda">Imagem 1</div>
+    </div>
+
+    <!-- Duas imagens menores à direita -->
+    <div class="coluna-direita">
+      <div class="item-pequeno">
+        <img src="assets/images/image2.png" alt="Imagem pequena 1">
+        <div class="legenda">Imagem 2</div>
+      </div>
+      <div class="item-pequeno">
+        <img src="assets/images/image3.png" alt="Imagem pequena 2">
+        <div class="legenda">Imagem 3</div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <!-- Página do layout 2 -->
+<section class="layout2-container">
+  <h2>Layout 2</h2>
+
+  <div class="layout2-grid">
+    <!-- Imagem principal à esquerda -->
+    <div class="imagem-grande">
+      <img src="assets/images/image1.png" alt="Imagem grande">
+      <div class="legenda">Imagem 1</div>
+    </div>
+
+    <!-- Coluna com imagens menores à direita -->
+    <div class="coluna-recomendados">
+      <div class="recomendado">
+        <img src="assets/images/image2.png" alt="Imagem 2">
+        <div class="legenda">Imagem 2</div>
+      </div>
+      <div class="recomendado">
+        <img src="assets/images/image3.png" alt="Imagem 3">
+        <div class="legenda">Imagem 3</div>
+      </div>
+      <div class="recomendado">
+        <img src="assets/images/image4.png" alt="Imagem 4">
+        <div class="legenda">Imagem 4</div>
+      </div>
+      <div class="recomendado">
+        <img src="assets/images/image5.png" alt="Imagem 5">
+        <div class="legenda">Imagem 5</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Página do Layout 3 -->
+<section class="layout3-container">
+  <h2>Layout 3</h2>
+
+  <div class="layout3-grid">
+    <div class="item-produto">
+      <img src="assets/images/image1.png" alt="imagem1">
+      <p>Imagem 1</p>
+    </div>
+    <div class="item-produto">
+      <img src="assets/images/image2.png" alt="imagem2">
+      <p>imagem 2</p>
+    </div>
+    <div class="item-produto">
+      <img src="assets/images/image3.png" alt="imagem3">
+      <p>imagem 3</p>
+    </div>
+    <div class="item-produto">
+      <img src="assets/images/image4.png" alt="imagem4">
+      <p>imagem 4 </p>
+    </div>
+    <div class="item-produto">
+      <img src="assets/images/image5.png" alt="imagem 5">
+      <p>imagem 5 </p>
+    </div>
+    <div class="item-produto">
+      <img src="assets/images/image6.png" alt="imagem 6">
+      <p>imagem 6</p>
+    </div>
+  </div>
+</section>
+
+<!-- Página do Layout 4 -->
+<section class="layout4-container">
+  <h2>Layout 4</h2>
+  
+  <div class="layout4-top">
+    <div class="item">
+      <img src="assets/images/image1.png" alt="Imagem 1">
+      <p>Imagem 1</p>
+    </div>
+    <div class="item">
+      <img src="assets/images/image2.png" alt="Imagem 2">
+      <p>Imagem 2</p>
+    </div>
+    <div class="item">
+      <img src="assets/images/image3.png" alt="Imagem 3">
+      <p>Imagem 3</p>
+    </div>
+  </div>
+
+
+<!-- Segunda parte com layout mais fiel -->
+<div class="layout4-bottom-ajuste">
+  
+  <!-- Coluna esquerda: propaganda -->
+  <div class="coluna-esquerda">
+    <div class="item">
+      <img src="assets/images/image4.png" alt="Imagem 4">
+      <p>Imagem 4</p>
+    </div>
+  </div>
+
+  <!-- Coluna central: grid de produtos -->
+  <div class="coluna-central">
+    <div class="item"><img src="assets/images/image5.png" alt="Imagem 5"><p>Imagem 5</p></div>
+    <div class="item"><img src="assets/images/image6.png" alt="Imagem 6"><p>Imagem 6</p></div>
+    <div class="item"><img src="assets/images/image7.png" alt="Imagem 7"><p>Imagem 7</p></div>
+    <div class="item"><img src="assets/images/image8.png" alt="Imagem 8"><p>Imagem 8</p></div>
+    <div class="item"><img src="assets/images/image9.png" alt="Imagem 9"><p>Imagem 9</p></div>
+    <div class="item"><img src="assets/images/image10.png" alt="Imagem 10"><p>Imagem 10</p></div>
+  </div>
+
+</div>
+
+
+</body>
+</html>
+
+</body>
+</html>
